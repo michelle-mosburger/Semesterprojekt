@@ -1,0 +1,505 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-y: hidden;
+
+
+}
+
+.header-container{
+
+   
+    background-color: transparent;
+
+}
+
+.main-links{
+    display: flex;
+    float: right; 
+
+
+}
+
+.main-links a{
+
+    
+    text-decoration: none;
+    color: white;
+    font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    padding: 0.4em;
+ 
+
+
+}
+
+.border-corner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+    margin-right:2.9em;
+    margin-top: 1em;
+
+
+    width: 33.5em;
+    height: 3.5em;
+    background:
+      linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 0,
+      linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+      linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 0,
+      linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%,
+      linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 0 0,
+      linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 100% 0,
+      linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+      linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%;
+  
+    background-repeat: no-repeat;
+    background-size: 2em 1.2em;
+
+}
+
+.white-image-container {
+
+    display: inline-block; 
+    border: 2px solid #ffffff; 
+    
+    margin-top: 1.3em;
+    margin-left: 2.7em;
+ 
+   
+}
+
+.wrapped-image {
+   
+    display: block; 
+    width: 27em;
+  
+
+  
+    padding-right: 70em;
+    padding-left: 3.9em;
+    padding-top: 7em;
+    padding-bottom: 6em;
+
+
+}
+.text-container {
+    position: relative; 
+    width: 1em;
+    height: 1em;
+
+    margin-left: 52.4em;
+}
+
+.text {
+
+
+    position: absolute; 
+    font-size: 13.5em;
+    color: white;
+    font-family: "Monument Extended Bold",'Trebuchet MS', sans-serif;
+
+    margin-top: 1.689em;
+
+}
+
+.text-container2{
+    position: relative; 
+    width: 1em;
+    height: 1em;
+
+    margin-left: 4.8em;
+}
+
+.text2{
+
+    position: absolute; 
+    font-size: 13.5em;
+    color: white;
+    font-family: "Monument Extended Bold",'Trebuchet MS', sans-serif;
+
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 1.617em;
+
+
+ 
+}
+
+.background-container{
+
+    position: relative;
+    width: 100em;
+
+}
+
+.image-svg{
+
+    position: absolute;
+    width: 89em;
+
+    margin-top: 10em;
+    margin-left: 9em;
+
+
+
+    z-index: -3;
+}
+
+.title-container-1{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title-1{
+
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+    transform: rotate(-90deg);
+
+    margin-left: -13.7em;
+    margin-top: 20.8em;
+
+
+
+}
+
+
+.title-container-2{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title-2{
+
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+    transform: rotate(90deg);
+
+    right: 0;
+    margin-right: -12em;
+    margin-top: 40em;
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    .white-image-container {
+        
+        margin-top: 1.3em;
+        margin-left: 2.7em;
+     
+       
+    }
+
+    
+.wrapped-image {
+   
+ 
+    width: 30em;
+   
+    padding-right: 70em;
+    padding-left: 14.2em;
+    padding-top: 7em;
+    padding-bottom: 6em;
+
+
+}
+
+.image-svg{
+
+   
+    width: 98em;
+
+    margin-top: 11em;
+    margin-left: 11em;
+
+
+
+    z-index: -3;
+}
+
+.text-container {
+    position: relative; 
+    width: 1em;
+    height: 1em;
+
+    margin-left: 59em;
+}
+
+.text {
+
+    font-size: 15em;
+    color: white;
+    margin-top: 1.679em;
+
+}
+
+.text-container2{
+  
+    width: 1em;
+    height: 1em;
+    margin-left: 5.3em;
+}
+
+.text2{
+
+    
+    font-size: 15em;
+    margin-top: 1.617em;
+
+}
+
+.title-2{
+
+  
+    margin-right: -12em;
+    margin-top: 44em;
+
+}
+
+
+}
+
+@media screen and (max-width: 320px){
+
+    .header-container{
+  
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+       
+    
+    }
+    
+    .main-links{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    
+    
+    }
+    
+    .main-links a{
+    
+        
+        text-decoration: none;
+        color: white;
+        font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+        font-size: 0.55em;
+        padding: 1em;
+
+     
+    
+    
+    }
+    
+    .border-corner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+    
+        margin-right: 0em;
+        margin-top: 1.5em;
+    
+    
+        width: 17.5em;
+        height: 2.3em;
+        background:
+          linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px) 0 0,
+          linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px) 0 100%,
+          linear-gradient(to left, rgb(255, 255, 255) 1px, transparent 1px) 100% 0,
+          linear-gradient(to left, rgb(255, 255, 255) 1px, transparent 1px) 100% 100%,
+          linear-gradient(to bottom, rgb(255, 255, 255)1px, transparent 1px) 0 0,
+          linear-gradient(to bottom, rgb(255, 255, 255)1px, transparent 1px) 100% 0,
+          linear-gradient(to top, rgb(255, 255, 255) 1px, transparent 1px) 0 100%,
+          linear-gradient(to top, rgb(255, 255, 255) 1px, transparent 1px) 100% 100%;
+      
+        background-repeat: no-repeat;
+        background-size: 1em 0.8em;
+
+      
+    
+    }
+
+    .white-image-container {
+    
+        display: inline-block; 
+        border: 1px solid #ffffff; 
+        
+        margin-top:0.2em;
+        margin-left: 0.45em;
+    
+     
+       
+    }
+    
+    .wrapped-image {
+       
+        display: block; 
+    
+        width: 15em;
+      
+    
+      
+        padding-right: 2em;
+        padding-left: 2em;
+        padding-top: 9em;
+        padding-bottom: 9em;
+
+ 
+    
+    
+    }
+    .text-container {
+        position: relative; 
+        width: 1em;
+        height: 1em;
+        margin: 0;
+        padding: 0;
+
+   
+    }
+    
+    .text {
+    
+    
+        position: absolute; 
+        font-size: 5em;
+        color: white;
+        font-family: "Monument Extended Bold",'Trebuchet MS', sans-serif;
+
+        -webkit-text-stroke: 0.8px white;
+        -webkit-text-fill-color: transparent;
+
+        transform: rotate(90deg);
+
+        margin: 0;
+        padding: 0;
+
+        margin-top: 5.42em;
+        margin-left: 0.18em;
+
+
+
+     
+    }
+    
+    .text-container2{
+        position: relative; 
+        width: 1em;
+        height: 1em;
+    
+      
+
+      
+    }
+    
+    .text2{
+    
+        position: absolute; 
+        font-size: 5em;
+        color: white;
+        font-family: "Monument Extended Bold",'Trebuchet MS', sans-serif;
+    
+        -webkit-text-stroke: 0.8px white;
+        -webkit-text-fill-color: transparent;
+    
+    
+
+        transform: rotate(90deg);
+
+        margin: 0;
+        padding: 0;
+
+        margin-top: 1.55em;
+        margin-left: -0.72em;
+    
+    
+     
+    }
+    
+    .background-container{
+    
+        position: relative;
+        width: 1em;
+
+      
+    }
+    
+    .image-svg{
+    
+        position: fixed;
+        width: 60em;
+    
+        margin-top: 8.5em;
+        margin-left: -20.4em;
+    
+    
+    
+        z-index: -3;
+
+      
+    }
+    
+    .title-container-1{
+    
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        display: none;
+    }
+    
+    .title-1{
+    
+        position: absolute;
+        color: white;
+        font-size: 1em;
+        font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+        transform: rotate(-90deg);
+    
+        margin-left: -13.7em;
+        margin-top: 20.8em;
+    
+        display: none;
+    
+    }
+    
+    
+    .title-container-2{
+    
+       
+        display: none;
+    }
+    
+    .title-2{
+  
+
+        display: none;
+    
+    }
+
+
+}
+
+
+
+

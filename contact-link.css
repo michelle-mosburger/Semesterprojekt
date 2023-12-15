@@ -1,0 +1,470 @@
+    body{
+
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .header-container{
+
+    
+        background-color: transparent;
+
+    }
+
+    .main-links{
+        display: flex;
+    
+        float: right; 
+
+
+    }
+
+    .main-links a{
+
+        
+        text-decoration: none;
+        color: white;
+        font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+        font-size: 1.2em;
+        padding: 0.4em;
+    
+
+
+    }
+
+    #link2{
+
+        color: #656565;
+    }
+    
+
+    .border-corner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+
+        margin-right:2.9em;
+        margin-top: 1em;
+
+
+        width: 33.5em;
+        height: 3.5em;
+        background:
+        linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 0,
+        linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+        linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 0,
+        linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%,
+        linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 0 0,
+        linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 100% 0,
+        linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+        linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%;
+    
+        background-repeat: no-repeat;
+        background-size: 2em 1.2em;
+
+    }
+
+    .grid-container{
+
+        position: relative;
+        width: 100em;
+
+    }
+
+    .grid-svg{
+
+        position: absolute;
+        width: 150em;
+
+        margin-top: 19em;
+        margin-left: -20em;
+
+        opacity: 70%;
+        z-index: -3;
+    }
+
+    .rectangle-white-container{
+        
+        display: inline-block; 
+        border: 1px solid #ffffff; 
+        
+        margin-top: 14em;
+        margin-left: 32.3em;
+
+        padding: 2em;
+
+
+    }
+
+    p{
+        display: block; 
+        width: 27em;
+        font-size: 1.4em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+
+    
+    }
+
+    #background-video{
+
+     
+        width: 43vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 30%;
+        margin-top: 13.23em;
+        margin-left: 30.2em;
+    }
+    #background-video-2{
+
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 30%;
+        margin-top: 3px;
+
+        display: none;
+    }
+    
+    
+    
+
+    @media screen and (max-width: 320px){
+
+        .header-container{
+  
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+           
+        
+        }
+        
+        .main-links{
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+    
+        
+        
+        }
+        
+        .main-links a{
+        
+            
+            text-decoration: none;
+            color: white;
+            font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+            font-size: 0.55em;
+            padding: 1em;
+    
+         
+        
+        
+        }
+        
+        .border-corner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: right;
+        
+            margin-right: 0em;
+            margin-top: 1.5em;
+        
+        
+            width: 17.5em;
+            height: 2.3em;
+            background:
+              linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px) 0 0,
+              linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px) 0 100%,
+              linear-gradient(to left, rgb(255, 255, 255) 1px, transparent 1px) 100% 0,
+              linear-gradient(to left, rgb(255, 255, 255) 1px, transparent 1px) 100% 100%,
+              linear-gradient(to bottom, rgb(255, 255, 255)1px, transparent 1px) 0 0,
+              linear-gradient(to bottom, rgb(255, 255, 255)1px, transparent 1px) 100% 0,
+              linear-gradient(to top, rgb(255, 255, 255) 1px, transparent 1px) 0 100%,
+              linear-gradient(to top, rgb(255, 255, 255) 1px, transparent 1px) 100% 100%;
+          
+            background-repeat: no-repeat;
+            background-size: 1em 0.8em;
+    
+          
+        
+        }
+
+        .grid-container{
+
+            position: relative;
+            width: 10em;
+
+        
+    
+        }
+    
+        .grid-svg{
+    
+            position: fixed;
+            width: 120em;
+    
+            margin-top: 9.5em;
+            margin-left: -50em;
+    
+            opacity: 100%;
+            z-index: -5;
+
+        }
+    
+    
+        #background-video{
+    
+         
+            width: 43vw;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+            opacity: 30%;
+            margin-top: 13.23em;
+            margin-left: 30.2em;
+
+            display: none;
+        }
+
+        .rectangle-white-container{
+        
+            display: inline-block; 
+            border: 1px solid #ffffff; 
+            
+            margin-top: 13em;
+            margin-left: 0.37em;
+    
+            padding: 1em;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+        
+        
+    
+    
+        }
+    
+        p{
+            display: block; 
+            width: 19em;
+            font-size: 0.9em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            text-align: center;
+
+    
+        
+        }
+
+        
+    #background-video{
+
+     
+        width: 43vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 30%;
+        margin-top: 13.23em;
+        margin-left: 30.2em;
+
+          display: none;
+    }
+    #background-video-2{
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        opacity: 30%;
+        margin-top: 3px;
+
+      
+    }
+
+        
+    }
+
+    @media screen and (min-width: 1920px){
+    
+        .header-container{
+    
+        
+            background-color: transparent;
+
+           
+        }
+    
+        .main-links{
+            display: flex;
+        
+            float: right; 
+    
+    
+        }
+    
+        .main-links a{
+    
+            
+            text-decoration: none;
+            color: white;
+            font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+            font-size: 1.2em;
+            padding: 0.4em;
+        
+    
+    
+        }
+    
+        .border-corner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: right;
+    
+            margin-right:2.9em;
+            margin-top: 1em;
+    
+    
+            width: 33.5em;
+            height: 3.5em;
+            background:
+            linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 0,
+            linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+            linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 0,
+            linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%,
+            linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 0 0,
+            linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 100% 0,
+            linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+            linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%;
+        
+            background-repeat: no-repeat;
+            background-size: 2em 1.2em;
+
+        
+    
+        }
+    
+        .grid-container{
+    
+            position: relative;
+            width: 100em;
+
+            
+       
+    
+        }
+    
+        .grid-svg{
+    
+            position: fixed;
+            width: 150em;
+    
+            margin-top: 19em;
+            margin-left: -17em;
+    
+            opacity: 70%;
+            z-index: -3;
+
+            
+            
+        }
+    
+        .rectangle-white-container{
+            
+            display: inline-block; 
+            border: 1px solid #ffffff; 
+            
+            margin-top: 22em;
+            margin-left: 38.2em;
+    
+            padding: 2em;
+    
+    
+           
+        }
+    
+        p{
+            display: block; 
+            width: 27em;
+            font-size: 1.4em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            text-align: center;
+    
+            
+        
+        }
+    
+        #background-video{
+    
+         
+            width: 38vw;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+            opacity: 30%;
+            margin-top: 16.5em;
+            margin-left: 35.9em;
+
+            
+            
+        }
+        #background-video-2{
+    
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+            opacity: 30%;
+            margin-top: 3px;
+    
+            display: none;
+        }
+        
+
+
+    }

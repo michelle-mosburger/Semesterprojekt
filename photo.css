@@ -1,0 +1,203 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+  
+}
+
+.header-container{
+
+    
+    background-color: transparent;
+
+}
+
+.main-links{
+    display: flex;
+
+    float: right; 
+
+
+}
+
+.main-links a{
+
+    
+    text-decoration: none;
+    color: white;
+    font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    padding: 0.4em;
+
+
+
+}
+
+#link3{
+
+    color: #b380be;
+}
+
+.border-corner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+    margin-right:2.9em;
+    margin-top: 1em;
+
+
+    width: 33.5em;
+    height: 3.5em;
+    background:
+    linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 0,
+    linear-gradient(to right, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+    linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 0,
+    linear-gradient(to left, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, rgb(255, 255, 255)2px, transparent 2px) 100% 0,
+    linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, rgb(255, 255, 255) 2px, transparent 2px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 2em 1.2em;
+
+}
+
+.image-container{
+
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 10em;
+
+}
+
+.image-1, .image-2, .image-3{
+
+    width: 26em;
+    border-radius: 10px;
+    margin-top: 5.5em;
+    margin-right: 1.5em;
+
+   
+    
+}
+
+@media screen and (max-width: 320px){
+
+    .header-container{
+  
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+       
+    
+    }
+    
+    .main-links{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    
+    
+    }
+    
+    .main-links a{
+    
+        
+        text-decoration: none;
+        color: white;
+        font-family: "Monument Extended",'Trebuchet MS', sans-serif;
+        font-size: 0.55em;
+        padding: 1em;
+
+     
+    
+    
+    }
+    
+    .border-corner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+    
+        margin-right: 0em;
+        margin-top: 1.5em;
+    
+    
+        width: 17.5em;
+        height: 2.3em;
+        background:
+          linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px) 0 0,
+          linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px) 0 100%,
+          linear-gradient(to left, rgb(255, 255, 255) 1px, transparent 1px) 100% 0,
+          linear-gradient(to left, rgb(255, 255, 255) 1px, transparent 1px) 100% 100%,
+          linear-gradient(to bottom, rgb(255, 255, 255)1px, transparent 1px) 0 0,
+          linear-gradient(to bottom, rgb(255, 255, 255)1px, transparent 1px) 100% 0,
+          linear-gradient(to top, rgb(255, 255, 255) 1px, transparent 1px) 0 100%,
+          linear-gradient(to top, rgb(255, 255, 255) 1px, transparent 1px) 100% 100%;
+      
+        background-repeat: no-repeat;
+        background-size: 1em 0.8em;
+
+      
+    
+    }
+
+    .image-container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 0.3em;
+    
+        
+        }
+        
+        .image-1, .image-2, .image-3{
+
+            width: 13em;
+            border-radius: 5px;
+            margin-top: 1.1em;
+            margin-right: 0em;
+
+        
+            
+        }
+
+        .image-3{
+
+            margin-bottom: 2em;
+        }
+}
+
+@media screen and (min-width: 1920px){
+
+ 
+.image-1, .image-2, .image-3{
+
+    width: 26em;
+    border-radius: 10px;
+    margin-top:  8em;
+    margin-right: 1.5em;
+
+   
+    
+
+
+    }
+
+
+}
+
+  
